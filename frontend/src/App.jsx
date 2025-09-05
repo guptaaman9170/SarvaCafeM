@@ -14,6 +14,7 @@ import FloatingSignLanguageButton from "./components/FloatingSignLanguageButton"
 import SignLanguage from "./pages/SignLanguage";
 import SignName from "./pages/SignName";
 import AccessibilityTools from "./components/AccessibilityTools";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [activeModal, setActiveModal] = useState(null); // "pdf" | "sign" | null
@@ -48,6 +49,9 @@ export default function App() {
 
       {/* Accessibility Tools - appears on all pages */}
       <AccessibilityTools />
+
+      {/* Footer */}
+      <Footer />
     </>
   );
 }

@@ -166,12 +166,8 @@ const startListening = () => {
       <Header showNavigationTabs={false} isFixed={false} />
 
       <div className="relative">
-        <div
-          className={`absolute inset-0 bg-cover bg-center bg-no-repeat ${
-            accessibilityMode ? "opacity-20" : ""
-          }`}
-          style={{ backgroundImage: `url(${restaurantBg})` }}
-        />
+        <div className="absolute inset-0 bg-white" />
+
 
         <div className="relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-5rem)] px-4 py-8">
           {/* Title box */}
